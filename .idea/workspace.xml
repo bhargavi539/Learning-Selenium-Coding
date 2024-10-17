@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a32d677-e7f3-4f42-a71c-96c3e2e2097d" name="Changes" comment="Added script to verify webpage title and url" />
+    <list default="true" id="0a32d677-e7f3-4f42-a71c-96c3e2e2097d" name="Changes" comment="changes in Lab_002.py">
+      <change afterPath="$PROJECT_DIR$/src/Oct_17_2024/Lab_004.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_17_2024/Lab_005.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_17_2024/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,21 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "bhargavi539"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bhargavi539&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bhargavi539/Learning-Selenium-Coding.git",
-    "accountId": "8fc75938-6ce8-4465-aa75-1862f616b0b0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bhargavi539/Learning-Selenium-Coding.git&quot;,
+    &quot;accountId&quot;: &quot;8fc75938-6ce8-4465-aa75-1862f616b0b0&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2nZBgLnkP6cbRMcMIJISYOGTKzy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,9 +52,15 @@
     "Python tests.Python tests for Lab_001.test_verify_title.executor": "Run",
     "Python tests.Python tests for Lab_002.test_verify_title.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\QA_Courses\TheTestingAcademy\Learning-Selenium-Coding\src" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.Python tests for Lab_002.test_verify_title">
     <configuration name="Python tests for Lab_001.test_verify_title" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Learning-Selenium-Coding" />
@@ -111,11 +123,20 @@
       <option name="project" value="LOCAL" />
       <updated>1729173264059</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes in Lab_002.py">
+      <option name="closed" value="true" />
+      <created>1729173741705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729173741705</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added script to verify webpage title and url" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added script to verify webpage title and url" />
+    <MESSAGE value="changes in Lab_002.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in Lab_002.py" />
   </component>
 </project>
