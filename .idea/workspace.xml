@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a32d677-e7f3-4f42-a71c-96c3e2e2097d" name="Changes" comment="changes in Lab_002.py">
-      <change afterPath="$PROJECT_DIR$/src/Oct_17_2024/Lab_004.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oct_17_2024/Lab_005.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oct_17_2024/__init__.py" afterDir="false" />
+    <list default="true" id="0a32d677-e7f3-4f42-a71c-96c3e2e2097d" name="Changes" comment="Parallel tests, Incognito mode browser launch">
+      <change afterPath="$PROJECT_DIR$/src/Oct_17_2024/Lab_006.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_17_2024/Lab_007.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_17_2024/samplehtmlpage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -49,8 +49,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Python tests.Python tests for Lab_001.test_verify_title.executor": "Run",
     "Python tests.Python tests for Lab_002.test_verify_title.executor": "Run",
+    "Python tests.Python tests for Lab_006.test_navigation_login.executor": "Run",
+    "Python tests.Python tests in Lab_007.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
@@ -61,7 +64,7 @@
       <recent name="D:\QA_Courses\TheTestingAcademy\Learning-Selenium-Coding\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for Lab_002.test_verify_title">
+  <component name="RunManager" selected="Python tests.Python tests in Lab_007.py">
     <configuration name="Python tests for Lab_001.test_verify_title" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Learning-Selenium-Coding" />
       <option name="ENV_FILES" value="" />
@@ -92,8 +95,40 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for Lab_006.test_navigation_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Learning-Selenium-Coding" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_17_2024" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Lab_006.test_navigation_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in Lab_007.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Learning-Selenium-Coding" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_17_2024" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/Oct_17_2024/Lab_007.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in Lab_007.py" />
+        <item itemvalue="Python tests.Python tests for Lab_006.test_navigation_login" />
         <item itemvalue="Python tests.Python tests for Lab_002.test_verify_title" />
         <item itemvalue="Python tests.Python tests for Lab_001.test_verify_title" />
       </list>
@@ -131,12 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729173741705</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Parallel tests, Incognito mode browser launch">
+      <option name="closed" value="true" />
+      <created>1729197815898</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729197815898</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added script to verify webpage title and url" />
     <MESSAGE value="changes in Lab_002.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes in Lab_002.py" />
+    <MESSAGE value="Parallel tests, Incognito mode browser launch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parallel tests, Incognito mode browser launch" />
   </component>
 </project>
