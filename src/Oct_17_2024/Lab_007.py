@@ -10,11 +10,12 @@ import time
 
 def test_navigation_login():
     chrome_options = Options()
+    chrome_options.add_argument("--incognito")
     chrome_options.add_argument("__headless")
-    chrome_options.add_argument("--disable-gpu")
-    #chrome_options.add_argument('--window-size=1920,1080')
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
+    #chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument('--start_maximized')
+    #chrome_options.add_argument('--no-sandbox')
+    #chrome_options.add_argument('--disable-dev-shm-usage')
     driver = webdriver.Chrome(chrome_options)
     #driver.maximize_window()
     driver.get("https://katalon-demo-cura.herokuapp.com/")

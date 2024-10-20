@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a32d677-e7f3-4f42-a71c-96c3e2e2097d" name="Changes" comment="Parallel tests, Incognito mode browser launch">
-      <change afterPath="$PROJECT_DIR$/src/Oct_17_2024/Lab_006.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oct_17_2024/Lab_007.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oct_17_2024/samplehtmlpage.html" afterDir="false" />
+    <list default="true" id="0a32d677-e7f3-4f42-a71c-96c3e2e2097d" name="Changes" comment="added scripts for navigation and login tests and code setup for headless mode">
+      <change afterPath="$PROJECT_DIR$/src/Oct_19_2024/Lab_008.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_19_2024/Lab_009.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_19_2024/Lab_010.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_19_2024/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_17_2024/Lab_007.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_17_2024/Lab_007.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,12 @@
     "Python tests.Python tests for Lab_001.test_verify_title.executor": "Run",
     "Python tests.Python tests for Lab_002.test_verify_title.executor": "Run",
     "Python tests.Python tests for Lab_006.test_navigation_login.executor": "Run",
+    "Python tests.Python tests for Lab_007.test_navigation_login.executor": "Run",
+    "Python tests.Python tests for Lab_009.test_start_a_trail_vwo_negative.executor": "Run",
+    "Python tests.Python tests for Lab_010.test_find_buttons_in_the_login_page.executor": "Run",
     "Python tests.Python tests in Lab_007.py.executor": "Run",
+    "Python tests.Python tests in Lab_008.py.executor": "Run",
+    "Python tests.Python tests in Lab_009.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
@@ -61,40 +68,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\QA_Courses\TheTestingAcademy\Learning-Selenium-Coding\src\Oct_19_2024" />
       <recent name="D:\QA_Courses\TheTestingAcademy\Learning-Selenium-Coding\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in Lab_007.py">
-    <configuration name="Python tests for Lab_001.test_verify_title" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Learning-Selenium-Coding" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_15_2024" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Lab_001.test_verify_title&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for Lab_002.test_verify_title" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Learning-Selenium-Coding" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_15_2024" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Lab_002.test_verify_title&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for Lab_007.test_navigation_login">
     <configuration name="Python tests for Lab_006.test_navigation_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Learning-Selenium-Coding" />
       <option name="ENV_FILES" value="" />
@@ -107,6 +85,51 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;Lab_006.test_navigation_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Lab_007.test_navigation_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Learning-Selenium-Coding" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_17_2024" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Lab_007.test_navigation_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Lab_009.test_start_a_trail_vwo_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Learning-Selenium-Coding" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_19_2024" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Lab_009.test_start_a_trail_vwo_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Lab_010.test_find_buttons_in_the_login_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Learning-Selenium-Coding" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_19_2024" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Lab_010.test_find_buttons_in_the_login_page&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -127,10 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for Lab_007.test_navigation_login" />
+        <item itemvalue="Python tests.Python tests for Lab_010.test_find_buttons_in_the_login_page" />
+        <item itemvalue="Python tests.Python tests for Lab_009.test_start_a_trail_vwo_negative" />
         <item itemvalue="Python tests.Python tests in Lab_007.py" />
         <item itemvalue="Python tests.Python tests for Lab_006.test_navigation_login" />
-        <item itemvalue="Python tests.Python tests for Lab_002.test_verify_title" />
-        <item itemvalue="Python tests.Python tests for Lab_001.test_verify_title" />
       </list>
     </recent_temporary>
   </component>
@@ -174,13 +198,22 @@
       <option name="project" value="LOCAL" />
       <updated>1729197815898</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added scripts for navigation and login tests and code setup for headless mode">
+      <option name="closed" value="true" />
+      <created>1729285396202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729285396202</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added script to verify webpage title and url" />
     <MESSAGE value="changes in Lab_002.py" />
     <MESSAGE value="Parallel tests, Incognito mode browser launch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parallel tests, Incognito mode browser launch" />
+    <MESSAGE value="added scripts for navigation and login tests and code setup for headless mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="added scripts for navigation and login tests and code setup for headless mode" />
   </component>
 </project>
