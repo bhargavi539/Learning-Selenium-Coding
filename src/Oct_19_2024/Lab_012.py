@@ -21,7 +21,7 @@ def test_awesomeqa_registration_positive():
     lastname_textbox.send_keys("123")
 
     email_textbox = driver.find_element(By.XPATH,"//input[@type='email' and @id='input-email']")
-    email_textbox.send_keys("qwerty@abc.com")
+    email_textbox.send_keys("qwerty@pabc.com")
 
     telephone_textbox = driver.find_element(By.XPATH,"//input[@type='tel' and @placeholder='Telephone']")
     telephone_textbox.send_keys("2123456")
