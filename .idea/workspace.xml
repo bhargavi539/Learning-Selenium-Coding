@@ -4,13 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a32d677-e7f3-4f42-a71c-96c3e2e2097d" name="Changes" comment="Finding elements by tagname, link text finding multliple elements">
+    <list default="true" id="0a32d677-e7f3-4f42-a71c-96c3e2e2097d" name="Changes" comment="Automated Registration page using XPATH Selectors and generated allure report">
       <change afterPath="$PROJECT_DIR$/CSS_Selectors_XPath_Selectors.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oct_19_2024/Lab_011.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oct_19_2024/Lab_012.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_22_2024/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_22_2024/test_Lab_014.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_22_2024/test_Lab_015.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_22_2024/test_Lab_016.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_24_2024/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_24_2024/test_Lab_017.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_24_2024/test_Lab_018.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_24_2024/test_Lab_019_SVG_Part1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_24_2024/test_Lab_020_SVG_Part2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_24_2024/test_Lab_021_Exception_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_24_2024/test_Lab_021_stale_element_exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oct_24_2024/test_Lab_022_timeout_exception.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/8ca5a4c6-7cbf-4e29-8592-7e260b305593-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/f9ebd973-8b88-4c60-ab86-fcf13daa2aad-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_15_2024/Lab_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_15_2024/test_Lab_001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_15_2024/Lab_002.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_15_2024/test_Lab_002.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_17_2024/Lab_004.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_17_2024/test_Lab_004.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_17_2024/Lab_005.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_17_2024/test_Lab_005.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_17_2024/Lab_006.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_17_2024/test_Lab_006.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_17_2024/Lab_007.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_17_2024/test_Lab_007.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_19_2024/Lab_008.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_19_2024/test_Lab_008.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_19_2024/Lab_009.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_19_2024/test_Lab_009.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_19_2024/Lab_010.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_19_2024/test_Lab_010.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_19_2024/Lab_011.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_19_2024/test_Lab_011.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_19_2024/Lab_012.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_19_2024/test_Lab_012.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oct_19_2024/Lab_013.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oct_19_2024/test_Lab_013.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,114 +69,126 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python tests.Python tests for Lab_001.test_verify_title.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for Lab_002.test_verify_title.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for Lab_006.test_navigation_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for Lab_007.test_navigation_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for Lab_009.test_start_a_trail_vwo_negative.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for Lab_010.test_find_buttons_in_the_login_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for Lab_011.test_xpath_selector.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for Lab_012.test_awesomeqa_registration_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Lab_007.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Lab_008.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Lab_009.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python tests.Python tests for Lab_001.test_verify_title.executor": "Run",
+    "Python tests.Python tests for Lab_002.test_verify_title.executor": "Run",
+    "Python tests.Python tests for Lab_006.test_navigation_login.executor": "Run",
+    "Python tests.Python tests for Lab_007.test_navigation_login.executor": "Run",
+    "Python tests.Python tests for Lab_009.test_start_a_trail_vwo_negative.executor": "Run",
+    "Python tests.Python tests for Lab_010.test_find_buttons_in_the_login_page.executor": "Run",
+    "Python tests.Python tests for Lab_011.test_xpath_selector.executor": "Run",
+    "Python tests.Python tests for Lab_012.test_awesomeqa_registration_positive.executor": "Run",
+    "Python tests.Python tests for Lab_014.test_get_search_item_titles_prices.executor": "Run",
+    "Python tests.Python tests for Lab_014.test_verify_error_msg_login_app_vwo.executor": "Run",
+    "Python tests.Python tests for Lab_016.test_login_vwo_explicit_wait_fluent.executor": "Run",
+    "Python tests.Python tests for Lab_017.test_verify_alerts.executor": "Run",
+    "Python tests.Python tests for Lab_017.test_verify_confirm.executor": "Run",
+    "Python tests.Python tests for test.test_get_search_item_titles_prices.executor": "Run",
+    "Python tests.Python tests for test_Lab_014.test_get_search_item_titles_prices.executor": "Run",
+    "Python tests.Python tests for test_Lab_018.test_verify_select_box.executor": "Run",
+    "Python tests.Python tests for test_Lab_019_SVG_Part1.test_verify_alerts.executor": "Run",
+    "Python tests.Python tests for test_Lab_020_SVG_Part2.test_verify_alerts.executor": "Run",
+    "Python tests.Python tests for test_Lab_021_Exception_demo.test_verify_alerts.executor": "Run",
+    "Python tests.Python tests for test_Lab_021_stale_element_exception.test_stale_element_exception.executor": "Run",
+    "Python tests.Python tests in Lab_007.py.executor": "Run",
+    "Python tests.Python tests in Lab_008.py.executor": "Run",
+    "Python tests.Python tests in Lab_009.py.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\QA_Courses\TheTestingAcademy\Learning-Selenium-Coding\src\Oct_19_2024" />
       <recent name="D:\QA_Courses\TheTestingAcademy\Learning-Selenium-Coding\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for Lab_012.test_awesomeqa_registration_positive">
-    <configuration name="Python tests for Lab_007.test_navigation_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_Lab_022_timeout_exception.test_stale_element_exception">
+    <configuration name="Python tests for test_Lab_019_SVG_Part1.test_verify_alerts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Learning-Selenium-Coding" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_17_2024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_24_2024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Lab_007.test_navigation_login&quot;" />
+      <option name="_new_target" value="&quot;test_Lab_019_SVG_Part1.test_verify_alerts&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for Lab_009.test_start_a_trail_vwo_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Lab_020_SVG_Part2.test_verify_alerts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Learning-Selenium-Coding" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_19_2024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_24_2024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Lab_009.test_start_a_trail_vwo_negative&quot;" />
+      <option name="_new_target" value="&quot;test_Lab_020_SVG_Part2.test_verify_alerts&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for Lab_010.test_find_buttons_in_the_login_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Lab_021_Exception_demo.test_verify_alerts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Learning-Selenium-Coding" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_19_2024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_24_2024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Lab_010.test_find_buttons_in_the_login_page&quot;" />
+      <option name="_new_target" value="&quot;test_Lab_021_Exception_demo.test_verify_alerts&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for Lab_011.test_xpath_selector" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Lab_021_stale_element_exception.test_stale_element_exception" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Learning-Selenium-Coding" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_19_2024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_24_2024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Lab_011.test_xpath_selector&quot;" />
+      <option name="_new_target" value="&quot;test_Lab_021_stale_element_exception.test_stale_element_exception&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for Lab_012.test_awesomeqa_registration_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Lab_022_timeout_exception.test_stale_element_exception" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Learning-Selenium-Coding" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_19_2024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oct_24_2024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Lab_012.test_awesomeqa_registration_positive&quot;" />
+      <option name="_new_target" value="&quot;test_Lab_022_timeout_exception.test_stale_element_exception&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for Lab_012.test_awesomeqa_registration_positive" />
-        <item itemvalue="Python tests.Python tests for Lab_011.test_xpath_selector" />
-        <item itemvalue="Python tests.Python tests for Lab_007.test_navigation_login" />
-        <item itemvalue="Python tests.Python tests for Lab_010.test_find_buttons_in_the_login_page" />
-        <item itemvalue="Python tests.Python tests for Lab_009.test_start_a_trail_vwo_negative" />
+        <item itemvalue="Python tests.Python tests for test_Lab_022_timeout_exception.test_stale_element_exception" />
+        <item itemvalue="Python tests.Python tests for test_Lab_021_stale_element_exception.test_stale_element_exception" />
+        <item itemvalue="Python tests.Python tests for test_Lab_021_Exception_demo.test_verify_alerts" />
+        <item itemvalue="Python tests.Python tests for test_Lab_020_SVG_Part2.test_verify_alerts" />
+        <item itemvalue="Python tests.Python tests for test_Lab_019_SVG_Part1.test_verify_alerts" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +248,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729459847335</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Automated Registration page using XPATH Selectors and generated allure report">
+      <option name="closed" value="true" />
+      <created>1729547532945</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729547532945</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Automated Registration page using XPATH Selectors and generated allure report">
+      <option name="closed" value="true" />
+      <created>1729550180297</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729550180297</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,6 +273,7 @@
     <MESSAGE value="Parallel tests, Incognito mode browser launch" />
     <MESSAGE value="added scripts for navigation and login tests and code setup for headless mode" />
     <MESSAGE value="Finding elements by tagname, link text finding multliple elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finding elements by tagname, link text finding multliple elements" />
+    <MESSAGE value="Automated Registration page using XPATH Selectors and generated allure report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Automated Registration page using XPATH Selectors and generated allure report" />
   </component>
 </project>
