@@ -95,4 +95,63 @@ Example:
 - **Or Example**
    `//input[@placeholder ='Full Name' or @type = 'text']`
 
+**CSS Selector**
+
+CSS selectors are used to select elements in an HTML or XML document in order to **apply styles** or other manipulations to those elements. 
+
+
+
+**CSS Selector** - > Xpath  (They can be converted to back)
+
+
+
+id -> #id
+
+class -> .class (dot class)
+
+`<div class="first">`  
+
+`</div>`  -> div.first 
+
+
+
+```
+a[id="btn-make-appointment"] -> //a[@id="btn-make-appointment"]
+```
+```
+//input[@placeholder='First Name'] ->  // and @
+input[placeholder='First Name'] - Css Selector
+```
+```
+By.CSS_SELECTOR
+```
+- CSS Selecors - Couple of Functions are available.
+
+
+div.first span
+
+```
+div.first span:first-child
+div.first span:last-child
+div.first span:nth-child(3)
+div.first span:nth-child(2n+1) // ODD
+div.first span:nth-child(2n) // EVEN
+```
+
+
+![Screenshot 2024-10-22 at 7.23.30 AM.png](https://eraser.imgix.net/workspaces/V1rGGsUC3exwXT9FRzVL/WWS31TdyovhjTB1TVo9v2jWpPei1/4URmQU-iyJRNT_sbwFh0F.png?ixlib=js-3.7.0 "Screenshot 2024-10-22 at 7.23.30 AM.png")
+
+
+
+```
+img[title="Flipkart"] // Exact Match - Title => Flipakrt
+img[title*="Flip"] // * -> cotains
+img[title^="Flip"] ^ -> starts-with - Xpath
+img[title$="ART"] - $ -> ends with
+```
+
+
+
+
+
 
